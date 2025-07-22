@@ -1,0 +1,71 @@
+.wrapper {
+  margin: 32px 0;
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.tooltip {
+  font-size: 14px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: #111827;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  display: block;
+}
+
+.tooltipWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipIcon {
+  font-size: 14px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.tooltipBox {
+  visibility: hidden;
+  opacity: 0;
+  width: 280px;
+  background-color: #1f2937;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px 12px;
+  position: absolute;
+  z-index: 10;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  line-height: 1.4;
+  transition: opacity 0.2s ease;
+}
+
+.tooltipWrapper:hover .tooltipBox {
+  visibility: visible;
+  opacity: 1;
+}

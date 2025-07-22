@@ -1,0 +1,82 @@
+/* components/main_page/FeatureSection/FeatureSection.module.css */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #3b82f6;
+}
+
+.checkbox {
+  margin-top: 5px;
+}
+
+.title {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.description {
+  font-size: 13px;
+  color: #4b5563;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+.featureSection {
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  color: #1f2937;
+}
+
+.featureItem {
+  margin-bottom: 1rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #374151;
+}
+
+

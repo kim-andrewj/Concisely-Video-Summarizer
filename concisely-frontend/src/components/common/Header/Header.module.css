@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  padding: 10px 32px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.nav a {
+  color: #374151;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #111827;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.signIn {
+  padding: 6px 16px;
+  border: 1px solid #767676;
+  background-color: transparent;
+  color: black;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.register {
+  padding: 6px 16px;
+  border: none;
+  background-color: #111827;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}

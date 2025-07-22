@@ -1,0 +1,48 @@
+/* Shared base for both normal and active */
+
+.tab,
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  min-width: 135px; /* Ensures even baseline size */
+  max-width: 135px;
+  text-align: center;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  font-size: 11.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  white-space: nowrap;
+  color:black;
+}
+
+/* Hover state */
+.tab:hover {
+  background: #f3f3f3;
+}
+
+
+.active {
+  composes: tab;
+  border-color: #333;
+  font-weight: 600;
+}
+
+.tabButton {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  font-size: 12px;
+}
+
+.active {
+  border: 2px solid #000;
+  font-weight: 600;
+}

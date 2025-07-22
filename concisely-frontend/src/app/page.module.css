@@ -1,0 +1,34 @@
+/* app/upload/page.module.css */
+.pageWrapper {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 48px;
+  gap: 48px;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Inter', sans-serif;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.leftColumn,
+.rightColumn {
+  flex: 1;
+  max-width: 560px;
+}
+
+/* Add this media query */
+@media (max-width: 960px) {
+  .pageWrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+  }
+
+  .leftColumn,
+  .rightColumn {
+    max-width: 100%;
+  }
+}
+

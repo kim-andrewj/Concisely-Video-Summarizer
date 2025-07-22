@@ -1,0 +1,78 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__container {
+  background-color: #f9fafb;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  display: flex;
+}
+
+.page-module___8aEwW__card {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 640px;
+  padding: 32px;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+.page-module___8aEwW__title {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-module___8aEwW__subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.page-module___8aEwW__fileInputLabel {
+  text-align: center;
+  cursor: pointer;
+  border: 2px dashed #d1d5db;
+  border-radius: 12px;
+  padding: 24px;
+  transition: border-color .2s;
+  display: block;
+}
+
+.page-module___8aEwW__fileInputLabel:hover {
+  border-color: #3b82f6;
+}
+
+.page-module___8aEwW__fileName {
+  text-align: center;
+  color: #374151;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.page-module___8aEwW__button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 24px;
+  padding: 12px 16px;
+  font-weight: bold;
+  transition: background-color .2s;
+}
+
+.page-module___8aEwW__button:hover {
+  background-color: #1d4ed8;
+}
+
+.page-module___8aEwW__button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+
+/*# sourceMappingURL=src_app_page_module_d12eb71c.css.map*/

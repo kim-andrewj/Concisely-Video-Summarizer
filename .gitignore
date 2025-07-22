@@ -1,0 +1,41 @@
+# -----------------------
+# Frontend (Next.js) stuff
+# -----------------------
+concisely-frontend/node_modules/
+concisely-frontend/.next/
+concisely-frontend/out/
+concisely-frontend/build/
+concisely-frontend/.pnp/
+concisely-frontend/.yarn/*
+!concisely-frontend/.yarn/patches
+!concisely-frontend/.yarn/plugins
+!concisely-frontend/.yarn/releases
+!concisely-frontend/.yarn/versions
+concisely-frontend/coverage/
+concisely-frontend/.vercel
+concisely-frontend/.env*
+concisely-frontend/next-env.d.ts
+concisely-frontend/*.tsbuildinfo
+concisely-frontend/npm-debug.log*
+concisely-frontend/yarn-debug.log*
+concisely-frontend/yarn-error.log*
+concisely-frontend/.pnpm-debug.log*
+
+# -----------------------
+# Backend (FastAPI / Python) stuff
+# -----------------------
+concisely-backend/venv/
+concisely-backend/__pycache__/
+concisely-backend/*.pyc
+concisely-backend/.env*
+concisely-backend/uploads
+concisely-backend/db/__pycache__/
+concisely-backend/models/__pycache__/
+concisely-backend/whisper.cpp
+
+# -----------------------
+# General
+# -----------------------
+.DS_Store
+*.pem
+.env

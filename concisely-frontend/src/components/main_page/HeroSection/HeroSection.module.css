@@ -1,0 +1,43 @@
+/* components/HeroSection/HeroSection.module.css */
+
+.hero {
+  padding: 40px 24px;
+  max-width: 480px;
+  text-align: center;
+}
+
+.title {
+  display: inline-flex;
+  font-size: 32px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.logo {
+  margin-top: -49px;
+  margin-bottom: -50px;
+  margin-left: 8px;
+  width: 150px; /* or whatever fits your design */
+  height: auto;
+  vertical-align: middle; /* 🔥 This fixes the drop */
+}
+
+.brand {
+  color: #f43f5e; /* Tailwind's rose-500 / brand color */
+  font-weight: 700;
+}
+
+.subtitle {
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #374151;
+}

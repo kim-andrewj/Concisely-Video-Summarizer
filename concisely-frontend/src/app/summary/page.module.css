@@ -1,0 +1,85 @@
+
+
+
+.pageWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 48px;
+  gap: 48px;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* Shared styles for both columns */
+.leftColumn,
+.rightColumn {
+  flex: 1;
+  max-width: 600px;
+  background-color: #f9fafb;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  color: #000000; /* <-- Add this line */
+}
+
+/* Allow only rightColumn to scroll internally */
+.rightColumn {
+  overflow-y: auto;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 1024px) {
+  .pageWrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+  }
+
+  .leftColumn,
+  .rightColumn {
+    max-width: 100%;
+    width: 100%;
+    padding: 32px; /* Optional: reduce padding on small screens */
+  }
+}
+
+/* Button tab wrapper */
+.tabWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  max-width: 600px; /* optional: center constraint */
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 40px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 32px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}

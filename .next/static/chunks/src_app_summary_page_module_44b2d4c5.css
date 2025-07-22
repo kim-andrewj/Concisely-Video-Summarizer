@@ -1,0 +1,58 @@
+/* [project]/src/app/summary/page.module.css [app-client] (css) */
+.page-module__qlOatW__container {
+  background-color: #f9fafb;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 24px;
+  display: flex;
+}
+
+.page-module__qlOatW__card {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 700px;
+  padding: 32px;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+.page-module__qlOatW__heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-module__qlOatW__section {
+  margin-bottom: 24px;
+}
+
+.page-module__qlOatW__sectionTitle {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.page-module__qlOatW__paragraph {
+  color: #374151;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.page-module__qlOatW__list {
+  color: #374151;
+  padding-left: 20px;
+  font-size: 15px;
+  list-style-type: disc;
+}
+
+.page-module__qlOatW__transcript {
+  color: #4b5563;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+/*# sourceMappingURL=src_app_summary_page_module_44b2d4c5.css.map*/

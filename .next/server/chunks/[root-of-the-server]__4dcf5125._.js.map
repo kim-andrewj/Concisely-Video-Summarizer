@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///Users/andykim/Projects/BriefTube/src/app/api/upload/route.js"],"sourcesContent":["import { NextResponse } from 'next/server';\n\nexport async function POST(request) {\n  console.log('📩 /api/upload hit!');\n\n  const formData = await request.formData();\n  const file = formData.get('video');\n\n  if (!file) {\n    console.log('❌ No file found in formData');\n    return NextResponse.json({ error: 'No file uploaded' }, { status: 400 });\n  }\n\n  console.log('✅ File received:', file.name);\n\n  return NextResponse.json({ message: `Received ${file.name}` });\n}\n"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe,KAAK,OAAO;IAChC,QAAQ,GAAG,CAAC;IAEZ,MAAM,WAAW,MAAM,QAAQ,QAAQ;IACvC,MAAM,OAAO,SAAS,GAAG,CAAC;IAE1B,IAAI,CAAC,MAAM;QACT,QAAQ,GAAG,CAAC;QACZ,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;YAAE,OAAO;QAAmB,GAAG;YAAE,QAAQ;QAAI;IACxE;IAEA,QAAQ,GAAG,CAAC,oBAAoB,KAAK,IAAI;IAEzC,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;QAAE,SAAS,CAAC,SAAS,EAAE,KAAK,IAAI,EAAE;IAAC;AAC9D","debugId":null}}]
+}

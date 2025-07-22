@@ -1,0 +1,59 @@
+.wrapper {
+  margin-top: 32px;
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.tooltipIcon {
+  font-size: 14px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.uploadBox {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.uploadBox:hover {
+  border-color: #3b82f6;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+  color: #6b7280;
+}
+
+.formatText {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.fileName {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #374151;
+}
