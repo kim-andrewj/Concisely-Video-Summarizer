@@ -1,3 +1,5 @@
+![banner](Concisely_logo.png)
+
 # Concisely
 
 **Summarize long-form videos into structured insights in minutes.**  
