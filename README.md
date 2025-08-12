@@ -69,7 +69,7 @@ The system is designed to process videos up to from upload to final summary, usi
 
 ---
 
-## Getting Started
+## Installation
 
 ### Prerequisites
 
