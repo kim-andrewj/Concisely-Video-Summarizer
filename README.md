@@ -55,6 +55,7 @@ The system is designed to process videos up to from upload to final summary, usi
    - Action Items  
    - Topic Highlights
 
+![image](demo.png)
 ---
 
 ## Performance
